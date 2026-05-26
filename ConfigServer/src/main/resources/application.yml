@@ -7,5 +7,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/gauravdholpuriya1997/Microservice-config-server
+          uri: https://github.com/gauravdholpuriya1997/Microservice-config-server  # connect to GITHUB CONFIG- SERVER
           clone-on-start: true
