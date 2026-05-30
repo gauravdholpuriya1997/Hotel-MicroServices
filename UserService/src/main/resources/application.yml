@@ -63,3 +63,9 @@ resilience4j:
         permittedNumberOfCallsInHalfOpenState: 5
         slidingWindowSize: 100
         slidingWindowType: COUNT_BASED
+
+retry:
+    instances:
+      ratinghotelservice=true
+        max-attempts:3
+        wait-duration:5s
